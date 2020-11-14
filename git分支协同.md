@@ -14,15 +14,15 @@
 
 ![git](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201112223205.png)
 
-**工作区(working directory)，**简言之就是你工作的区域。对于git而言，就是的本地工作目录。工作区的内容会包含提交到暂存区和版本库(当前提交点)的内容，同时也包含自己的修改内容。
+** 工作区(working directory)，**简言之就是你工作的区域。对于git而言，就是的本地工作目录。工作区的内容会包含提交到暂存区和版本库(当前提交点)的内容，同时也包含自己的修改内容。
 
-**暂存区(stage area, 又称为索引区index)，**是git中一个非常重要的概念。是我们把修改提交版本库前的一个过渡阶段。查看GIT自带帮助手册的时候，通常以index来表示暂存区。在工作目录下有一个.git的目录，里面有个index文件，存储着关于暂存区的内容。git add命令将工作区内容添加到暂存区。
+** 暂存区(stage area, 又称为索引区index)，**是git中一个非常重要的概念。是我们把修改提交版本库前的一个过渡阶段。查看GIT自带帮助手册的时候，通常以index来表示暂存区。在工作目录下有一个.git的目录，里面有个index文件，存储着关于暂存区的内容。git add命令将工作区内容添加到暂存区。
 
-**本地仓库(local repository)，**版本控制系统的仓库，存在于本地。当执行git commit命令后，会将暂存区内容提交到仓库之中。在工作区下面有.git的目录，这个目录下的内容不属于工作区，里面便是仓库的数据信息，暂存区相关内容也在其中。这里也可以使用merge或rebase将**远程仓库副本**合并到本地仓库。图中的只有merge，注意这里也可以使用rebase。
+** 本地仓库(local repository)，**版本控制系统的仓库，存在于本地。当执行git commit命令后，会将暂存区内容提交到仓库之中。在工作区下面有.git的目录，这个目录下的内容不属于工作区，里面便是仓库的数据信息，暂存区相关内容也在其中。这里也可以使用merge或rebase将**远程仓库副本**合并到本地仓库。图中的只有merge，注意这里也可以使用rebase。
 
-**远程版本库(remote repository)，**与本地仓库概念基本一致，不同之处在于一个存在远程，可用于远程协作，一个却是存在于本地。通过push/pull可实现本地与远程的交互；
+** 远程版本库(remote repository)，**与本地仓库概念基本一致，不同之处在于一个存在远程，可用于远程协作，一个却是存在于本地。通过push/pull可实现本地与远程的交互；
 
-**远程仓库副本，**可以理解为存在于本地的远程仓库缓存。如需更新，可通过git fetch/pull命令获取远程仓库内容。使用fech获取时，并未合并到本地仓库，此时可使用git merge实现远程仓库副本与本地仓库的合并。git pull 根据配置的不同，可为git fetch + git merge 或 git fetch + git rebase。rebase和merge的区别可以自己去网上找些资料了解下。
+** 远程仓库副本，**可以理解为存在于本地的远程仓库缓存。如需更新，可通过git fetch/pull命令获取远程仓库内容。使用fech获取时，并未合并到本地仓库，此时可使用git merge实现远程仓库副本与本地仓库的合并。git pull 根据配置的不同，可为git fetch + git merge 或 git fetch + git rebase。rebase和merge的区别可以自己去网上找些资料了解下。
 
 
 
@@ -75,13 +75,13 @@ git checkout -b [barach]
 
 ### 合并分支
 
-看一看==**fast-forward**==的合并:
+看一看 == ** fast-forward ** == 的合并:
 
 ![image-20201113071226986](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114213541.png)
 
 
 
-如果是**==non fast-forward==**呢，non fast-forward意思就是一个分支中已经有一部分代码，所以它不允许你直接把你的代码覆盖上去。
+如果是 ** == non fast-forward == ** 呢，non fast-forward意思就是一个分支中已经有一部分代码，所以它不允许你直接把你的代码覆盖上去。
 
 主要办法就是协商修改相应的差异，然后在add和commit就行。同时也可以用rebase不过这样有的记录会消失。不建议，就自己去了解
 
@@ -121,7 +121,7 @@ git branch -d one # 删除one分支
 
 进行远程协作不可避免的问题就是。我先fork了源项目。然后源项目更新了，然后我正好又在分支上更新了一些东西，准备合并到本地主分支。
 
-显然这个解决办法就是先把本地主分支同步。在去合并本地分支。本地分支合并不赘述。讲讲**如何让自己的远程分支同步远程主分支**。
+显然这个解决办法就是先把本地主分支同步。在去合并本地分支。本地分支合并不赘述。讲讲 ** 如何让自己的远程分支同步远程主分支 **。
 
 首先先添加好远程主仓库的地址:
 
@@ -153,7 +153,7 @@ git push origin master
 
 
 
-**==这是实际操作==**
+** == 这是实际操作 == **
 
 ![image-20201114204759881](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114213546.png)
 
@@ -177,7 +177,7 @@ git push origin master
 
 ![image-20201114205249763](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114213551.png)
 
-**本地仓库的文件：** 这里就可以直接使用Linux的命令来操作。不想一个一个点确认可以这样
+** 本地仓库的文件：** 这里就可以直接使用Linux的命令来操作。不想一个一个点确认可以这样
 
 ```bash
 yes | rm -r [文件名]
