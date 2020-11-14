@@ -26,7 +26,7 @@
 >
 >我希望只要是前人走过的弯路，后人就不必再走。这是我的信念，也是我建立这个项目的原因。
 
-### 选择GitHub的原因
+#### 选择GitHub的原因
 
   QQ 群大多为年级和专业所分隔，无法长期共同地保有；况且群文件也缺乏组织。
   
@@ -57,7 +57,7 @@ Issue、PR、纠错、资料、考试攻略，完全欢迎！
 
 若想为此仓库提交资料，请克隆本仓库后提PR(Pull Request)。
 
-### 具体步骤如下（在Web端进行）：
+#### 具体步骤如下（在Web端进行）：
 
 1. Fork 本项目 
 
@@ -65,5 +65,5 @@ Issue、PR、纠错、资料、考试攻略，完全欢迎！
 
 3. 发起 PR 
 
-### 命令行操作 [git操作](https://github.com/Alexiosvon/Hello_CUMTB/blob/master/git%E5%88%86%E6%94%AF%E5%8D%8F%E5%90%8C.md)
+#### 命令行操作 [git操作](https://github.com/Alexiosvon/Hello_CUMTB/blob/master/git%E5%88%86%E6%94%AF%E5%8D%8F%E5%90%8C.md)
 
