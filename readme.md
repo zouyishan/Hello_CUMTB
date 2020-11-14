@@ -49,3 +49,6 @@ Issue、PR、纠错、资料、考试攻略，完全欢迎！
 3. 发起 PR 
 
 ### 命令行操作 [git操作](https://github.com/Alexiosvon/Hello_CUMTB/blob/master/git%E5%88%86%E6%94%AF%E5%8D%8F%E5%90%8C.md)
+
+### 贡献者
+
