@@ -30,7 +30,7 @@
 
 可以把分支想象成一个叉子
 
-![image-20201113064116191](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114213533.png)
+![image-20201113064116191](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114215020.png)
 
 比如小明的试卷现在上面全是错误，你看不下去，把小明的试卷复印下来。然后自己对着复印的小明的试卷进行修改。修改完以后再拿给小明看，如果小明觉得对。改的还行的话就改成你改的那份试卷~
 
@@ -202,6 +202,6 @@ yes | rm -r [文件名]
 
 5. 填写信息正式提交![image-20201114212624226](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114213605.png)
 
-6. 这样就完成了。就静等项目管理员进行审核，项目管理员在Pull request上有列表，如果你能得到管理员的审核，你就对项目做出贡献了~~![image-20201114212926792](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114213607.png)
+6. 这样就完成了。就静等项目管理员进行审核，项目管理员在Pull request上有列表，如果你能得到管理员的审核，你就对项目做出贡献了~![image-20201114212926792](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114213607.png)
 
-7. 如果成功的话，你就会收到merge成功的邮件了~~![image-20201114213458698](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114213609.png)
+7. 如果成功的话，你就会收到merge成功的邮件了~![image-20201114213458698](https://zouyishan.oss-cn-beijing.aliyuncs.com/images/20201114213609.png)
