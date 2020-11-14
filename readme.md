@@ -52,13 +52,13 @@
 
 #### 具体步骤如下：
 
-1.点击就在Code右边的Issues，点击New Issue新建一个Issue
+1. 点击就在Code右边的Issues，点击New Issue新建一个Issue
 
-2.按要求填写标题，正文
+2. 按要求填写标题，正文
 
-3.可选择Labels添加标签
+3. 可选择Labels添加标签
 
-4.都完成后，单击Submit new issue提交
+4. 都完成后，单击Submit new issue提交
 
 ## 贡献
 
