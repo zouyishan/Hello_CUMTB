@@ -48,5 +48,4 @@ Issue、PR、纠错、资料、考试攻略，完全欢迎！
 2. 在你Fork后的项目中，如果要上传到已有文件夹，直接打开对应的文件夹，把需要上传的文件拖动到浏览器里，等待上传结束后，填写提交信息并Commit;若上传文件到不存在的文件夹，点击绿色Download按钮旁的upload，把浏览器地址栏中文件夹名称改为你想要新建的文件夹名称，然后回车，上传你的文件。 
 3. 发起 PR 
 
-### 命令行操作
-###  [git操作](https://github.com/Alexiosvon/Hello_CUMTB/blob/master/git%E5%88%86%E6%94%AF%E5%8D%8F%E5%90%8C.md)
+### 命令行操作 [git操作](https://github.com/Alexiosvon/Hello_CUMTB/blob/master/git%E5%88%86%E6%94%AF%E5%8D%8F%E5%90%8C.md)
